@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranay Gawas | Portfolio</title>
+  <meta name="description" content="Pranay Gawas - Web Developer & AI Enthusiast Portfolio">
+  <meta name="keywords" content="Web Developer, AI, ML, Portfolio, Pranay Gawas">
+  <meta name="author" content="Pranay Gawas">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+  <!-- Theme Toggle -->
+  <button id="toggle-theme" aria-label="Toggle Dark Mode">🌙</button>
+
+  <!-- Header / Hero -->
+  <header id="hero">
+    <div class="hero-content">
+      <img src="profile.jpeg" alt="Pranay Gawas" class="hero-img" />
+      <h1>Hi, I'm <span>Pranay Gawas</span></h1>
+      <p>Web Developer | AI & ML Enthusiast | TYCS Student</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="Pranay_Gawas_Resume.pdf" class="btn-outline" download>📄 Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <p>I’m a Third Year Computer Science student passionate about web development, AI, and data science. I love building projects and learning new tools and technologies that solve real-world problems.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="skills-icons">
+      <i class="devicon-html5-plain colored"></i>
+      <i class="devicon-css3-plain colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-python-plain colored"></i>
+      <i class="devicon-git-plain colored"></i>
+      <i class="devicon-flask-original"></i>
+    </div>
+    <ul>
+      <li>Programming: C, C++, Python, JavaScript</li>
+      <li>Web: HTML, CSS, Bootstrap, Flask</li>
+      <li>Tools: Git, GitHub, VS Code</li>
+      <li>Other: Data Science, Machine Learning Basics</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+      <div class="project">
+        <img src="parking-system.png" alt="Parking System">
+        <h3>Parking Slot Detection System</h3>
+        <p>Smart parking using IR sensors & Raspberry Pi to show real-time slot availability.</p>
+        <p class="tags">#IoT #Python #RaspberryPi</p>
+        <a href="#">GitHub Link</a>
+      </div>
+
+      <div class="project">
+        <img src="digital-art.png" alt="Digital Art Gallery">
+        <h3>Digital Art Gallery</h3>
+        <p>A full-stack app for uploading, browsing, and buying digital art.</p>
+        <p class="tags">#Flask #HTML #CSS</p>
+        <a href="#">GitHub Link</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="reveal">
+    <h2>Education</h2>
+    <p><strong>B.Sc Computer Science</strong> — SPK College, University of Mumbai (2023–2026)</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="reveal">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/movqnjlj" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="4"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="mailto:gawaspranay09@gmail.com">📧 Email</a>
+      <a href="#">💼 LinkedIn</a>
+      <a href="https://github.com/pranay0921">🐙 GitHub</a>
+    </div>
+  </section>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" title="Go to top">⬆️</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Pranay Gawas | Designed with ❤</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
